@@ -6,7 +6,7 @@ target 'button' do
   # use_frameworks!
 
   # Pods for button
-pod 'BlocksKit', '~> 2.2.5'
+#pod 'BlocksKit', '~> 2.2.5'
 
 
   target 'buttonTests' do
