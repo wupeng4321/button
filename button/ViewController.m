@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <BlocksKit+UIKit.h>
 #import "UIView+delay.h"
 
 @interface ViewController ()
@@ -22,13 +21,6 @@
     button.backgroundColor = [UIColor redColor];
     [self.view addSubview:button];
     button.delay = 1.0f;
-    
-    [button bk_whenTapped:^{
-        
-    }];
-    [button bk_whenDoubleTapped:^{
-        
-    }];
     
     [button addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     
